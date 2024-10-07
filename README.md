@@ -1,4 +1,4 @@
-<img src="file:///home/lincoln/www/Dio/curso_microsft_azure/dio-resumo-componentes-arquitetura-zaure/image/cursoDioAzure.png" title="" alt="cursoDioAzure.png" width="219">
+<img src="./image/cursoDioAzure.png" title="" alt="cursoDioAzure.png" width="219">
 
 # [Dio]( [Code your global future now](https://www.dio.me/en)) Componentes de Arquitetura do Azure
 
@@ -12,25 +12,21 @@
 
 ## Regiões
 
-    As regiões são composta de um ou mais datacenters muito proximos. Quando é escolhido uma região é importante escolher uma região de baixa latência, ou seja escolher uma região proxíma de onde os clientes vão acessar suas aplicações, é importante também informar que nem todo recurso está disponivel para determinada região, pode acontecer de querer usar um serviço e o mesmo não estar disponivel, outro detalhe importante de se saber é que entre uma região e outra pode ter diferenças de preços na contratação dos recursos. 
-
-
+    As regiões são compostas de um ou mais datacenters muito próximos. Quando é escolhido uma região é importante escolher uma região de baixa latência, ou seja escolher uma região próxíma de onde os clientes vão acessar suas aplicações, é importante também informar que nem todo recurso está disponível para determinada região, pode acontecer de querer usar um serviço e o mesmo não estar disponível, outro detalhe importante de se saber é que entre uma região e outra pode ter diferenças de preços na contratação dos recursos. 
 
 ## Zonas de disponibilidade
 
-    Zonas de disponibilidade são unidades fisícas de data centers que estão separadas por distâncias significativas dentro de uma região do Azure. Algumas das vantagens de se utilizar  **Zonas de disponibilidade são:** Alta disponibilidade, tolerancia a falhas, escalabilidade e desempenho.
-
-
+    Zonas de disponibilidade são unidades físicas de data centers que estão separadas por distâncias significativas dentro de uma região do Azure. Algumas das vantagens de se utilizar  **Zonas de disponibilidade são:** Alta disponibilidade, tolerância a falhas, escalabilidade e desempenho.
 
 ## Pares de Regiões
 
-    É um conceito que se refere a associação de duas Regiões do Azure, dentro da mesma area geográfica em uma configuração de emparelhamento. As vantagens de se utilizar os pares de Região são a capacidade de fornecer alta disponibilidade e resiliência. Ao implantar recursos em um par de região você pode aproveitar a replicação sincrona ou assincrona dos dados e o failover automático entre as regiões primárias e secundárias. 
+    É um conceito que se refere a associação de duas Regiões do Azure, dentro da mesma área geográfica em uma configuração de emparelhamento. As vantagens de se utilizar os pares de Região são a capacidade de fornecer alta disponibilidade e resiliência. Ao implantar recursos em um par de região você pode aproveitar a replicação síncrona ou assíncrona dos dados e o failover automático entre as regiões primárias e secundárias. 
 
     **Cenários que os pares de regiões do Azure se aplicam**: 
 
 * Recuperação de desastres
   
-      Em caso de falha em uma Regição a segunda pode assumir o trabalho.
+      Em caso de falha em uma Região a segunda pode assumir o trabalho.
 
 * Alta disponibilidade
   
@@ -38,17 +34,13 @@
 
 * Conformidade com regulamentações
 
-        Em alguns setores regulamentações especificas podem exigir a replicação dde dados em regiões separadas. É importante ressaltar que nem toda região do Azure possui par.
-
-
+        Em alguns setores regulamentações especificas podem exigir a replicação de dados em regiões separadas. É importante ressaltar que nem toda região do Azure possui par.
 
 Link dos pares de regiões: https://aka.ms/PairedRegions-ptb
 
-
-
 ## Regiões soberanas do Azure
 
-    São regiões isoladas designada a oferecer serviços de nuvem exclusivos para entidades governamentais e organizações que precisam cumprir requisitos de soberania, de um país ou região. Essas regiões são projetadas para fornecer controle e proteção adicionais aos dados sensiveis e criticos do governo ou de organizações com quesitos de conformidades rigorosas.
+    São regiões isoladas designada a oferecer serviços de nuvem exclusivos para entidades governamentais e organizações que precisam cumprir requisitos de soberania, de um país ou região. Essas regiões são projetadas para fornecer controle e proteção adicionais aos dados sensíveis e críticos do governo ou de organizações com quesitos de conformidades rigorosas.
 
     **Principais Regiões Soberanas do Azure:** 
 
@@ -60,8 +52,6 @@ Link dos pares de regiões: https://aka.ms/PairedRegions-ptb
 
 * Azure Germany.
 
-
-
 **Cenários que as Regiões soberanas se aplicam:**
 
 * Setor publico e governamental.
@@ -70,13 +60,9 @@ Link dos pares de regiões: https://aka.ms/PairedRegions-ptb
 
 * Dados confidencias.
 
-
-
 ## Assinaturas do Azure
 
     Uma assinatura é uma conta que fornece acesso aos serviços e recursos do Azure. Uma conta permite que gerencie permissões e acessos para usuários e grupos específicos.
-
-
 
 **Vantagens de utilizar as assinaturas:**
 
@@ -88,41 +74,29 @@ Link dos pares de regiões: https://aka.ms/PairedRegions-ptb
 
 * Flexibilidade.
 
-
-
 ## Grupos de gerenciamento
 
-    Grupos de gerenciamento são hierarquias de objetos que ajudam a gerenciar acessos a conformidade e a governancia em grande escala. Eles permitem gerenciar varias assinaturas como uma unica entidade e aplicar politicas e controle em toda a organização. Os grupos permitem que organizem os recursos em uma estrutura hierarquica.
-
-
+    Grupos de gerenciamento são hierarquias de objetos que ajudam a gerenciar acessos a conformidade e a governança em grande escala. Eles permitem gerenciar varias assinaturas como uma única entidade e aplicar politicas e controle em toda a organização. Os grupos permitem que organizem os recursos em uma estrutura hierarquica.
 
 **Vantagens de utilizar os grupos de gerenciamento:**
 
 * Centralização.
 
-* Consistenência.
+* Consistência.
 
 * Escalabilidade.
 
 * Eficiência.
 
-
-
-**Hierarquia de grupos de recursos**, assinaturas e grupos de gerenciamento são modelos de organização e gerenciamento de recursos de nuvem em diferentes niveis de abstração e escopo. Essa hierarquia é composta por grupos de **gerenciamento,** **assinaturas e grupos de recursos.**
-
-
+**Hierarquia de grupos de recursos**, assinaturas e grupos de gerenciamento são modelos de organização e gerenciamento de recursos de nuvem em diferentes níveis de abstração e escopo. Essa hierarquia é composta por grupos de **gerenciamento,** **assinaturas e grupos de recursos.**
 
 ## Recursos do Azure
 
     São os componentes de infraestrutura que constituem os serviço da Azure. Cada recurso do Azure é identificado por um nome exclusivo e uma ID de Recurso.
 
-
-
 ## Grupo de recurso
 
-    São containers lógicos que permitem gerenciar todos os recursos relacionados. Os grupos de recursos também permitem gerenciar premissões e acesso para usuários e grupos especificos.
-
-
+    São containers lógicos que permitem gerenciar todos os recursos relacionados. Os grupos de recursos também permitem gerenciar permissões e acesso para usuários e grupos específicos.
 
 **Vantagens em utilizar os grupos de recursos:**
 
@@ -133,8 +107,6 @@ Link dos pares de regiões: https://aka.ms/PairedRegions-ptb
 * Controle de acesso.
 
 * Faturamento simplificado.
-
-
 
 ## Confiabilidade:
 
