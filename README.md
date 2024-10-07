@@ -1,6 +1,6 @@
 <img src="./image/cursoDioAzure.png" title="" alt="cursoDioAzure.png" width="219">
 
-# [Dio]( [Code your global future now](https://www.dio.me/en)) Componentes de Arquitetura do Azure
+# Dio( [Code your global future now](https://www.dio.me/en)) Componentes de Arquitetura do Azure
 
 **Desafio DIO Formação Microsoft AZ-900 Certification**, resumo sobre componentes de arquitetura do Azure.
 
