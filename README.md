@@ -6,14 +6,14 @@
 
 ## Conteúdos
 
-- [Regiões](#altaDisponibilidade)
-- [Zonas de disponibilidade](#Zonas de disponibilidade)
-- [Pares de Regiões](#Pares de Regiões )
-- [Regiões soberanas do Azure](#Regiões soberanas do Azure )
-- [Assinaturas do Azure](#Assinaturas do Azure )
-- [Grupos de gerenciamento](#Grupos de gerenciamento)
-- [Recursos do Azure](#Recursos do Azure)
-- [Grupo de recurso](#Grupo de recurso)
+- [Regiões](#Regiões)
+- [Zonas de disponibilidade](#Zonas)
+- [Pares de Regiões](#Pares )
+- [Regiões soberanas do Azure](#soberanas )
+- [Assinaturas do Azure](#Assinaturas )
+- [Grupos de gerenciamento](#gerenciamento)
+- [Recursos do Azure](#Recursos)
+- [Grupo de recurso](#Grupo)
 - [Confiabilidade](#Confiabilidade)
 - [Previsibilidade](#Previsibilidade)
 - [Segurança](#Segurança)
