@@ -7,8 +7,17 @@
 ## Conteúdos
 
 - [Regiões](#altaDisponibilidade)
-- [Pares de Regiões](#pares de regiões)
-- [Regiões soberanas do Azure](#regiões soberanas )
+- [Zonas de disponibilidade](#Zonas de disponibilidade)
+- [Pares de Regiões](#Pares de Regiões )
+- [Regiões soberanas do Azure](#Regiões soberanas do Azure )
+- [Assinaturas do Azure](#Assinaturas do Azure )
+- [Grupos de gerenciamento](#Grupos de gerenciamento)
+- [Recursos do Azure](#Recursos do Azure)
+- [Grupo de recurso](#Grupo de recurso)
+- [Confiabilidade](#Confiabilidade)
+- [Previsibilidade](#Previsibilidade)
+- [Segurança](#Segurança)
+- [Governança](#Governança)
 
 ## Regiões
 
@@ -108,19 +117,19 @@ Link dos pares de regiões: https://aka.ms/PairedRegions-ptb
 
 * Faturamento simplificado.
 
-## Confiabilidade:
+## Confiabilidade
 
     Na nuvem podemos ter confiabilidade com a duplicação dos recursos em regiões diferentes, backup e diferentes outras estratégias o que nos traz integridade dos dados, das informações e com isto a confiabilidade.
 
-## Previsibilidade:
+## Previsibilidade
 
     No ambiente de nuvem conseguimos ter uma previsão dos custos e consumo dos serviços o que nos permite definir estratégias de migração para cloud, otimização de serviços, definir melhorias ao passar do tempo pois conseguimos ter um histórico tanto de consumo como de valor obtidos pela utilização dos recursos.
 
-## Segurança:
+## Segurança
 
     A segurança resume-se na capacidade de consumir um serviço em cloud e garantir que o ambiente seja seguro em todas as camadas, seja ela de infraestrutura, camada de aplicação, camada de dados enfim, e este conjunto de regras nos permite estar em conformidade com as políticas de segurança.
 
-## Governança:
+## Governança
 
     Trata-se de políticas, que dizem o que pode ou não pode ser feito no ambiente de cloud. Se um usuário pode ou não excluir um recurso, se um recurso pode ser acessado, regras específicas para determinado setor de indústria, existem algumas regras que já vem definidas, porém também é possível cria-las.
 
